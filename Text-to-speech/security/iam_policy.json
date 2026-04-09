@@ -1,0 +1,33 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject"
+			],
+			"Resource": "arn:aws:s3:::txt-user-erik/*"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"s3:PutObject"
+			],
+			"Resource": "arn:aws:s3:::mp3-output-erik/*"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"polly:SynthesizeSpeech"
+			],
+			"Resource": "*"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"sns:Publish"
+			],
+			"Resource": "arn:aws:sns:us-east-1:976619631094:audio-listo"
+		}
+	]
+}
