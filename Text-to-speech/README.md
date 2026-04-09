@@ -1,5 +1,11 @@
 # Text-to-Audio Serverless Pipeline — AWS
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
+![Amazon S3](https://img.shields.io/badge/Amazon-S3-green)
+![Amazon Polly](https://img.shields.io/badge/Amazon-Polly-yellow)
+![SNS](https://img.shields.io/badge/Amazon-SNS-red)
+
 Serverless application that converts text files to audio using AWS services.
 When a user uploads a .txt file to an S3 bucket, a Lambda function is automatically triggered to process the text and generate an audio file using Polly.
 It includes email notifications via SNS once the synthesis is complete.
@@ -7,9 +13,7 @@ It includes email notifications via SNS once the synthesis is complete.
 ## Architecture 
 ![Arquitectura](architecture/Text-to-Speech-diagram.png)
 
-
 ## Services Used
-
 | Service | Role in the project |
 |---|---|
 | Amazon S3 | Storage for input (.txt) and output (.mp3) files |
