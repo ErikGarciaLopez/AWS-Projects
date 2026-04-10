@@ -1,6 +1,6 @@
-# Text-to-Audio Serverless Pipeline — AWS
+# Text-to-Speech Serverless Pipeline — AWS
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
 ![Amazon S3](https://img.shields.io/badge/Amazon-S3-green)
 ![Amazon Polly](https://img.shields.io/badge/Amazon-Polly-yellow)
